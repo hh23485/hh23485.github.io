@@ -4,7 +4,7 @@ title:      "First Step"
 subtitle:   "第一篇博客上线！！"
 date:       2016-12-22
 author:     "hh23485"
-header-img: "img/one-step.jpg"
+header-img: "img/one-step-box.jpg"
 tags:
     - 心情
 ---
