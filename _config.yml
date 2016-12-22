@@ -43,6 +43,7 @@ gems: [jekyll-paginate]
 markdown: kramdown
 kramdown:
   input: GFM                        # use Github Flavored Markdown !important
+
 #   syntax_highlighter: rough
 
 
@@ -76,7 +77,7 @@ sidebar-avatar: /img/hh23485_head.jpg      # use absolute URL, seeing it's used 
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
 
 
 
@@ -87,7 +88,7 @@ friends: [
         href: "http://www.shminjs.top"
     },
     {
-        title: "csf",
-        href: "csf0429.github.io"
+        title: "机器学习之神",
+        href: "http://csf0429.github.io"
   }
 ]
