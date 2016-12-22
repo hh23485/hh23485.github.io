@@ -11,6 +11,10 @@
     }
 }
 
+.post-container {
+  text-align: justify;
+}
+
 .sidebar-container {
     color: #bfbfbf;
     font-size: 14px
@@ -65,7 +69,8 @@ body {
     line-height: 1.7;
     font-size: 16px;
     color: #404040;
-    overflow-x: hidden
+    overflow-x: hidden;
+    /*text-indent: 2em*/  /*首行缩进*/
 }
 
 p {
@@ -81,7 +86,8 @@ h6 {
     font-family: -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
     line-height: 1.7;
     line-height: 1.1;
-    font-weight: 700
+    font-weight: 700;
+    text-indent: 0em
 }
 
 h4 {
@@ -160,14 +166,19 @@ pre,
 }
 
 pre code {
+    font-family: Inconsolata, Monaco, Andale Mono, Courier New, monospace;
     display: block;
     width: auto;
     white-space: pre;
-    word-wrap: normal
+    /*color: #faFDf8;*/
+    /*background-color: #191919;*/
+    word-wrap: normal;
+    font-size: 20px;
+    text-indent: 2em    /*代码缩进*/
 }
 
 .post-container a {
-    color: #337ab7
+    color: #337ab7;
 }
 
 .post-container a:hover,
@@ -181,7 +192,9 @@ pre code {
 .post-container h4,
 .post-container h5,
 .post-container h6 {
-    margin: 30px 0 10px
+    margin: 30px 0 10px;
+    /*color: #10a3ee*/
+    /*标题颜色*/
 }
 
 .post-container h5 {
