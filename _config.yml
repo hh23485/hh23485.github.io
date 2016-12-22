@@ -1,19 +1,19 @@
 # Site settings
-title: Your Blog
-SEOTitle: hh23485's Documents | Just try
-header-img: img/home-bg.jpg
+title: Hey Blog
+SEOTitle: hhblog | Just try
+header-img: img/new-index-bg.jpg
 email: hh23485@126.com
-description: "Write Code, Save World"
+description: "Write Codes, Save World"
 keyword: ""
-url: "http://huangxuan.me"              # your host, for absolute URL
+url: "http://blog.hhchat.cn"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: true
-weibo_username:     创世_倾城
-zhihu_username:     hh23485
+# weibo_username:     创世_倾城
+# zhihu_username:     hh23485
 github_username:    hh23485
 #twitter_username:  huxpro
 # facebook_username:  huxpro
@@ -43,7 +43,7 @@ gems: [jekyll-paginate]
 markdown: kramdown
 kramdown:
   input: GFM                        # use Github Flavored Markdown !important
-  syntax_highlighter: rough
+#   syntax_highlighter: rough
 
 
 
@@ -70,7 +70,7 @@ duoshuo_share: true                     # set to false if you want to use Commen
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Stay hungry. Stay foolish. "
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/hh23485_head.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -83,9 +83,6 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "HH Blog",
-        href: "http://huangxuan.me"
-    },{
         title: "石进鹏",
         href: "http://www.shminjs.top"
     }
