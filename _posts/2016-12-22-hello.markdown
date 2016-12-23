@@ -5,6 +5,7 @@ subtitle:   "第一篇博客上线！！"
 date:       2016-12-22
 author:     "hh23485"
 header-img: "img/one-step.jpg"
+summary:		"这是上线的第一个页面🤣，虽然对于笨笨的md编辑器和写法尚有不满，不过也想到了一些解决方案，以后再逐渐去搞定吧。"
 tags:
     - 心情
 ---
