@@ -10,9 +10,6 @@ tags:
 ---
 
 
-{::options coderay_line_numbers="table" /}
-
-
 # 先来个说明
 
 在[@石进鹏](http://shminjs.top)的帮助下，完成了这次博客的搭建。这是一个在Github Page上搭载的静态博客，使用了duoshuo的评论插件，模板在网页底部提供了链接。  
@@ -24,15 +21,6 @@ tags:
 嗯，偶尔放点发现的限免和有意思的软件🤓。  
 
 这是第一步，下一篇要到把markdown的样式调到满意的时候了。。。 
-
-``` java
-
-int a=1;
-int c=2;
-int b=2;
-
-
-```
 
 # 致谢
 
