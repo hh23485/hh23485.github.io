@@ -174,7 +174,7 @@ pre code {
     /*background-color: #191919;*/
     word-wrap: normal;
     font-size: 20px;
-    text-indent: 2em    /*代码缩进*/
+    /*text-indent: 2em    /*代码缩进*/*/
 }
 
 .post-container a {
