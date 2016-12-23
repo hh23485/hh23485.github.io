@@ -114,13 +114,13 @@ article {
 
 blockquote {
     color: gray;
-    font-style: italic;
+    /*font-style: italic;*/
     font-size: .95em;
     margin: 20px 0 20px
 }
 
 blockquote p {
-    margin: 0
+    margin: 5px
 }
 
 small.img-hint {
