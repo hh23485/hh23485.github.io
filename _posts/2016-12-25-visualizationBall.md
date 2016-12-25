@@ -39,7 +39,7 @@ tags:
 
 然而随着课程上下去，有点坐不住了，可视化的算法开始出现一些`向量`，`插值`，`区间数`，`粒子云`之类的名词了 🤔。嗯？
 
-![](https://ww2.sinaimg.cn/large/006tKfTcgw1fb31y069r9j305i05ijrb.jpg)
+![](http://oiqdakvix.bkt.clouddn.com/2016-12-25-0fc637d12f2eb938dfad948edc628535e4dd6faf.jpg)
 
 于是，赶紧去网上翻了翻当时正在上的MC算法代码是啥样，发现...
 
