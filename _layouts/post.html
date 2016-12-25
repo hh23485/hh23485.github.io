@@ -164,18 +164,16 @@ layout: default
                 {% endif %}
             </div>
         </div>
-    </div>
-</article>
-
+        
+        <div class="row">
 <!-- 畅言 -->
 
 <!-- 代码1 ：打赏：放在页面需要展示的位置  -->
 <!-- 如果您配置过sourceid，建议在div标签中配置sourceid、cid(分类id)，没有请忽略  -->
-<div width = 400px>
 <div id="cyReward" role="cylabs" data-use="reward" align="center"></div>
 
 <!--PC和WAP自适应版评论-->
-<div id="SOHUCS" sid="{{page.id}}" width=400px></div> 
+<div id="SOHUCS" sid="{{page.id}}"></div> 
 <script type="text/javascript"> 
 (function(){ 
 var appid = 'cysLtQuL0'; 
@@ -193,8 +191,12 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
 <script type="text/javascript" charset="utf-8" src="http://changyan.itc.cn/js/lib/jquery.js"></script>
 <script type="text/javascript" charset="utf-8" src="https://changyan.sohu.com/js/changyan.labs.https.js?appid=cysLtQuL0"></script>
 <!-- 实验 -->
-
 <!-- 畅言 -->
+        </div>
+    </div>
+</article>
+
+
 
 
 {% if site.duoshuo_username %}
