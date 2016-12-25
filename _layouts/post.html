@@ -129,6 +129,35 @@ layout: default
 
             </div>
 
+<!-- 畅言 -->
+
+<!-- 代码1 ：打赏：放在页面需要展示的位置  -->
+<!-- 如果您配置过sourceid，建议在div标签中配置sourceid、cid(分类id)，没有请忽略  -->
+<div id="cyReward" role="cylabs" data-use="reward" align="center"></div>
+
+<!--PC和WAP自适应版评论-->
+<div id="SOHUCS" sid="{{page.id}}" ></div> 
+<script type="text/javascript"> 
+(function(){ 
+var appid = 'cysLtQuL0'; 
+var conf = 'prod_fa9c0999d3c7d4a53c02786e94ef8ce2'; 
+var width = window.innerWidth || document.documentElement.clientWidth; 
+if (width < 960) {
+window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("http://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
+<!-- 评论 -->
+
+<!-- 实验 -->
+<!-- 代码2：用来读取评论框配置，此代码需放置在代码1之后。 -->
+<!-- 如果当前页面有评论框，代码2请勿放置在评论框代码之前。 -->
+<!-- 如果页面同时使用多个实验室项目，以下代码只需要引入一次，只配置上面的div标签即可 -->
+<script type="text/javascript" charset="utf-8" src="http://changyan.itc.cn/js/lib/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://changyan.sohu.com/js/changyan.labs.https.js?appid=cysLtQuL0"></script>
+<!-- 实验 -->
+
+<!-- 畅言 -->
+
+
+
     <!-- Sidebar Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
@@ -165,34 +194,11 @@ layout: default
             </div>
         </div>
     </div>
+
+
 </article>
 
-<!-- 畅言 -->
 
-<!-- 代码1 ：打赏：放在页面需要展示的位置  -->
-<!-- 如果您配置过sourceid，建议在div标签中配置sourceid、cid(分类id)，没有请忽略  -->
-<div id="cyReward" role="cylabs" data-use="reward" align="center"></div>
-
-<!--PC和WAP自适应版评论-->
-<div id="SOHUCS" sid="{{page.id}}" width=window.innerWidth*0.80></div> 
-<script type="text/javascript"> 
-(function(){ 
-var appid = 'cysLtQuL0'; 
-var conf = 'prod_fa9c0999d3c7d4a53c02786e94ef8ce2'; 
-var width = window.innerWidth || document.documentElement.clientWidth; 
-if (width < 960) {
-window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("http://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
-<!-- 评论 -->
-
-<!-- 实验 -->
-<!-- 代码2：用来读取评论框配置，此代码需放置在代码1之后。 -->
-<!-- 如果当前页面有评论框，代码2请勿放置在评论框代码之前。 -->
-<!-- 如果页面同时使用多个实验室项目，以下代码只需要引入一次，只配置上面的div标签即可 -->
-<script type="text/javascript" charset="utf-8" src="http://changyan.itc.cn/js/lib/jquery.js"></script>
-<script type="text/javascript" charset="utf-8" src="https://changyan.sohu.com/js/changyan.labs.https.js?appid=cysLtQuL0"></script>
-<!-- 实验 -->
-
-<!-- 畅言 -->
 
 
 {% if site.duoshuo_username %}
