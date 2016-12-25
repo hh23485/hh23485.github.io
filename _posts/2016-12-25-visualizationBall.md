@@ -261,7 +261,9 @@ bool sphere::generateSphere(){
 
 ![](http://oiqdakvix.bkt.clouddn.com/2016-12-25-2016-12-25-15-44-33.jpg?imageView/2/w/400/q/90)
 
-## 绘制的部分涉及到了openGL
+***
+
+## 使用rayCasting的部分涉及到了openGL
 
 ### 首先在xcode里
 
