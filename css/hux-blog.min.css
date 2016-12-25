@@ -87,7 +87,7 @@ h6 {
     line-height: 1.7;
     line-height: 1.1;
     font-weight: 700;
-    text-indent: 0em
+    text-indent: 0em;
 }
 
 h4 {
@@ -174,7 +174,7 @@ pre code {
     /*background-color: #191919;*/
     word-wrap: normal;
     font-size: 16px;
-    /*text-indent: 2em    /*代码缩进*/*/
+    /*text-indent: 2em    /*代码缩进*/
 }
 
 .post-container a {
@@ -219,13 +219,17 @@ pre code {
 
 .post-container ul,
 .post-container ol {
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    /*color : blue;*/
+
+    /*color = blue;*/
 }
 
 @media screen and (max-width:768px) {
     .post-container ul,
     .post-container ol {
-        padding-left: 30px
+        padding-left: 30px;
+
     }
 }
 
@@ -240,12 +244,12 @@ pre code {
 .post-container ol ul,
 .post-container ul ol,
 .post-container ul ul {
-    margin-bottom: 5px
+    margin-bottom: 5px;
 }
 
 .post-container li p {
     margin: 0;
-    margin-bottom: 5px
+    margin-bottom: 5px;
 }
 
 .post-container li h1,
@@ -758,7 +762,8 @@ form .row:first-child .floating-label-form-group {
     letter-spacing: 1px;
     padding: 10px;
     background-color: #fff;
-    border-radius: 0
+    border-radius: 0;
+    /*color : #10a3ee;*/
 }
 
 @media only screen and (min-width:768px) {
@@ -770,7 +775,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 .pager li>a {
-    color: #404040
+    color: #404040;
+
 }
 
 .pager li>a:hover,
