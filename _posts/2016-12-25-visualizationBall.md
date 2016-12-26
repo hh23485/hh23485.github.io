@@ -124,7 +124,8 @@ rayCasting：一种**直接体绘制**的方法。
 
 这里是我生成体数据的代码。
 
-{% highlight cpp %}
+```
+
 //
 //  Sphere.h
 //  visualizationBall
@@ -255,7 +256,8 @@ bool sphere::generateSphere(){
     }
     return true;
 }
-{% endhighlight %}
+
+```
 
 最开始的装逼似的前缀是xcode自动生成的，不是我干的，我一般都放[这个](http://bbs.csdn.net/topics/390866984)。
 
