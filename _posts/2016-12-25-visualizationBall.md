@@ -124,7 +124,7 @@ rayCasting：一种**直接体绘制**的方法。
 
 这里是我生成体数据的代码。
 
-{% highlight cpp linenos %}
+{% highlight cpp %}
 //
 //  Sphere.h
 //  visualizationBall
