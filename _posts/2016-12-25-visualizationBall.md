@@ -125,7 +125,6 @@ rayCasting：一种**直接体绘制**的方法。
 这里是我生成体数据的代码。
 
 ```
-
 //
 //  Sphere.h
 //  visualizationBall
@@ -133,6 +132,7 @@ rayCasting：一种**直接体绘制**的方法。
 //  Created by hh23485 on 2016/12/24.
 //  Copyright © 2016年 😃. All rights reserved.
 //
+
 #include <cmath>
 /**
  点结构
@@ -256,7 +256,6 @@ bool sphere::generateSphere(){
     }
     return true;
 }
-
 ```
 
 最开始的装逼似的前缀是xcode自动生成的，不是我干的，我一般都放[这个](http://bbs.csdn.net/topics/390866984)。
