@@ -8,8 +8,7 @@ summary:	""
 header-img: "img/pic.path"
 finished: "no"
 tags:
-    - Mac    
-    - 工具
+
 ---
 
 # 关于
