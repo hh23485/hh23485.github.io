@@ -1,8 +1,14 @@
----
-layout: page
-description: "Write Code, Save World"
 --- 
-{% for post in paginator.posts %}
+layout: page 
+description: "Write Code, Save World" 
+--- 
+
+{% for post in paginator.posts %} 
+<!-- 如果未完成则跳过 -->
+{% if post.finished != "yes" %} 
+	{% continue %}
+{% endif %}
+
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">

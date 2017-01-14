@@ -6,6 +6,7 @@ date:       2016-12-25
 author:     "hh23485"
 summary:	"这是我科学计算可视化课程的作业，其中只一个关键的问题：如何在不懂openGL，不太懂C++的情况下，用rayCasting画一个（好看的）球。"
 header-img: "img/bgimage-ball.jpg"
+finished: "yes"
 tags:
     - openGL    
     - 作业
