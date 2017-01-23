@@ -15,4 +15,3 @@ tags:
 
 
 
-<font color=white>好孩子看不见：www.baidu.com</font>
